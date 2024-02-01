@@ -38,3 +38,23 @@ A commonly accepted cloud security principle is the shared responsibility model.
 The shared responsibility model ensures that both the CSP and the users agree about where their responsibility for security begins and ends. A problem occurs when organizations assume that the CSP is taking care of security that they have not taken responsibility for. One example of this is cloud applications and configurations. The CSP takes responsibility for securing the cloud, but it is the organization’s responsibility to ensure that services are configured properly according to the security requirements of their organization. 
 
 <h2>Glossary</h2>
+
+Terms and definitions from Course 3, Module 4
+Baseline configuration (baseline image): A documented set of specifications within a system that is used as a basis for future builds, releases, and updates
+
+Hardware: The physical components of a computer
+
+Multi-factor authentication (MFA): A security measure which requires a user to verify their identity in two or more ways to access a system or network
+
+Network log analysis: The process of examining network logs to identify events of interest 
+
+Operating system (OS): The interface between computer hardware and the user
+
+Patch update: A software and operating system update that addresses security vulnerabilities within a program or product
+Penetration testing (pen test): A simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes 
+
+Security hardening: The process of strengthening a system to reduce its vulnerabilities and attack surface
+
+Security information and event management (SIEM): An application that collects and analyzes log data to monitor critical activities for an organization
+
+World-writable file: A file that can be altered by anyone in the world
