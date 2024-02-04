@@ -51,6 +51,7 @@ Network log analysis: The process of examining network logs to identify events o
 Operating system (OS): The interface between computer hardware and the user
 
 Patch update: A software and operating system update that addresses security vulnerabilities within a program or product
+
 Penetration testing (pen test): A simulated attack that helps identify vulnerabilities in systems, networks, websites, applications, and processes 
 
 Security hardening: The process of strengthening a system to reduce its vulnerabilities and attack surface
