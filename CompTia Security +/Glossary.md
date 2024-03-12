@@ -69,76 +69,381 @@ Replay Attacks, header manipulation, prevent session hijacking, browser cookies 
 
 Request Forgeries, cross-site requests, client and the server, forgeries, server-side request forgery (SSRF)
 
-Driver Manipulation, 
+Driver Manipulation, malware hide-and-go-seek, shimming, refactoring
 
-SSL Stripping
+SSL Stripping, HTTP downgrade, SSL and TLS
 
 Race Conditions
 
-Other
+Other: memory vulnerabilities, directory traversal, improper error handling, improper input handling, API attacks, resource exhaustion
 
-<h3></h3>
+<h3>1.4 - Network Attacks</h3>
 
-<h3></h3>
+Rogue Access Points and Evil Twins
+
+Bluejacking and Bluesnarfing
+
+Wireless Disassociation Attacks
+
+Wireless Jamming
+
+RFID and NFC Attacks
+
+Randomizin Cryptography
+
+On-Path Attacks
+
+MAC Flooding and Cloning
+
+DNS Attacks
+
+Denial of Service
+
+Malicious Scripts
+
+<h3>1.5 - Threat Actors and Vectors</h3>
+
+Threat Actors
+
+Attack Vectors
+
+Threat Intelligence
+
+Threat Research
+
+<h3>1.6 - Vulnerabilities</h3>
+
+Vulnerability Types
+
+Third-party Risks
+
+Vulnerability Impacts
+
+<h3>1.7 - Security Assessments</h3>
+
+Threat Hunting
+
+Vulnerability Scans
+
+Security Information and Event Management
+
+<h3>Penetration Testing</h3>
+
+Penetration Testing
+
+Reconnaissance
+
+Security Teams
+
 
 
 
 <h2>Domain 2.0 - Architecture and Design - 21%</h2>
 
-<h3></h3>
+<h3>2.1 - Enterprise Security</h3>
 
-<h3></h3>
+Configuration Management
 
-<h3></h3>
+Protecting Data
 
-<h3></h3>
+Data Loss Prevention
 
-<h3></h3>
+Managing Security
 
-<h3></h3>
+Site Resiliency
+
+Honeypots and Deception
+
+<h3>2.2 Virtualization and Cloud Computing</h3>
+
+Cloud Models
+
+Edge and Fog Computing
+
+Designing the Cloud
+
+Infrastructure as Code
+
+Virtualization Security
+
+<h3>2.3 - Secure Application Development</h3>
+
+Secure Deployments
+
+Provisioning and Deprovisioning
+
+Secure Coding Techniques
+
+Software Diversity
+
+Automation and Scripting
+
+<h3>2.4 - Authentication and Authorization</h3>
+
+Authentication Methods
+
+Biometrics
+
+Multi-factor Authentication
+
+<h3>2.5 - Resilience</h3>
+
+Disk Redundancy
+
+Network Redundancy
+
+Power Redundancy
+
+Replication
+
+Backup Types
+
+Resiliency
+
+<h3>2.6 - Embedded Systems</h3>
+
+Embedded Systems
+
+Embedded Systems Communication
+
+Embedded Systems Constraints
+
+<h3>2.7 - Physical Security Controls</h3>
+
+Physical Security Controls
+
+Secure Areas
+
+Secure Data Destruction
+
+<h3>2.8 - Cryptographic Concepts</h3>
+
+Cryptography Concepts
+
+Symmetric and Assymetric Cryptography
+
+Hashing and Digital Signatures
+
+Cryptographic Keys
+
+Steganography
+
+Quantum Computing
+
+Stream and Block Ciphers
+
+Blockchain Technology
+
+Cryptography Use Cases
+
+Cryptography Limitations
+
 
 
 <h2>Domain 3.0 - Implementation - 25%</h2>
 
-<h3></h3>
+<h3>3.1 - Secure Protocols</h3>
 
-<h3></h3>
+Secure Protocols
 
-<h3></h3>
+<h3>3.2 - Host and Application Security</h3>
 
-<h3></h3>
+Endpoint Protection
 
-<h3></h3>
+Boot Integrity
 
-<h3></h3>
+Database Security
+
+Application Security
+
+Application Hardening
+
+<h3>3.3 - Secure Network Designs</h3>
+
+Load Balancing
+
+Network Segmentation
+
+Virtual Private Networks
+
+Port Security
+
+Secure Networking
+
+Firewalls
+
+Network Access Control
+
+Proxy Servers
+
+Intrusion Prevention
+
+Other Network Appliances
+
+<h3>3.4 - Wireless Security</h3>
+
+Wireless Cryptography
+
+Wireless Authentication Methods
+
+Wireless Authentication Protocols
+
+Installing Wireless Networks
+
+<h3>3.5 - Mobile Security</h3>
+
+Mobile Networks
+
+Mobile Device Management
+
+Mobile Device Security
+
+Mobile Device Enforcement
+
+Mobile Deployment Models
+
+<h3>3.6 - Cloud Security</h3>
+
+Cloud Security Controls
+
+Securing Cloud Storage
+
+Securing Cloud Networks
+
+Securing Compute Clouds
+
+Cloud Security Solutions
+
+<h3>3.7 - Identity and Account Management</h3>
+
+Identity Controls
+
+Account Types
+
+Account Pliicies
+
+<h3>3.8 - Authentication and Authorization Services</h3>
+
+Authentication Management
+
+PAP and CHAP
+
+Identity and Access Services
+
+Federated Identities
+
+Access Control
+
+
+<h3>3.9 - Public Key Infrastructures</h3>
+
+Public Key Infrastructure
+
+Certificates
+
+Certificate Formats
+
+Certificate Concepts
+
+
+
 
 
 <h2>Domain 4.0 - Operations and Incident Response - 16%</h2>
 
-<h3></h3>
+<h3>4.1 - Security Tools</h3>
 
-<h3></h3>
+Reconnaissance Tools - Part 1
 
-<h3></h3>
+Reconnaissance Tools - Part 2
 
-<h3></h3>
+Fire Manupulation Tools
 
-<h3></h3>
+Shell and Script Environments
 
-<h3></h3>
+Packet Tools
+
+Forensic Tools
+
+<h3>4.2 - Incident Response</h3>
+
+Incident Response Process
+
+Incident Response Planning
+
+Attack Frameworks
+
+<h3>4.3 - Investigations</h3>
+
+Vulnerability Scan Output
+
+SIEM Dashboards
+
+Log Files
+
+Log Management
+
+<h3>4.4 - Securing an Environment</h3>
+
+Endpoint Security Configuration
+
+Security Configurations
+
+<h3>4.5 - Digital Forensics</h3>
+
+Digital Forensics
+
+Forensics Data Acquisition
+
+On-Premises vs. Cloud Forensics
+
+Managing Evidence
 
 
 <h2>Domain 5.0 Governance, Risk, and Compliance - 14%</h2>
 
-<h3></h3>
+<h3>5.1 - Security Controls</h3>
 
-<h3></h3>
+Security Controls
 
-<h3></h3>
+<h3>5.2 - Regulations, Standards, and Frameworks</h3>
 
-<h3></h3>
+Security Regulations and Standards
 
-<h3></h3>
+Security Frameworks
 
-<h3></h3>
+Secure Configurations
+
+<h3>5.3 - Organizational Security Policies</h3>
+
+Personnel Security
+
+Third-party Risk Management
+
+Managing Data
+
+Credential Policies
+
+Organizational Policies
+
+<h3>5.4 - Risk Management</h3>
+
+Risk Management Types
+
+Risk Analysis
+
+Business Impact Analysis
+
+
+
+<h3>5.5 - Data Privacy</h3>
+
+Privacy and Data Breaches
+
+Data Classifications
+
+Enhancing Privacy
+
+Data Roles and Responsibilities
+
 
