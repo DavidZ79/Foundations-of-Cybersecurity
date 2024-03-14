@@ -404,13 +404,13 @@ Managing Evidence
 
 <h3>5.1 - Security Controls</h3>
 
-Security Controls
+Security Controls: Categories: managerial, operational, technical. Types: preventative, detective, corrective, deterrent, compensating, physical
 
 <h3>5.2 - Regulations, Standards, and Frameworks</h3>
 
-Security Regulations and Standards
+Security Regulations and Standards: GDPR: general data protection regulation EU. PCI DSS: payment card industry data security standard, six control objectives
 
-Security Frameworks
+Security Frameworks: CIS: written by it professionals, NIST is government
 
 Secure Configurations
 
