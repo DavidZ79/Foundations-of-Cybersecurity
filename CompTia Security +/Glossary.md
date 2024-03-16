@@ -12,7 +12,7 @@ Shoulder Surfing
 
 Hoaxes, De-hoaxing
 
-Watering Hole Attacks
+Watering Hole Attacks: third party is watering hole, infect that
 
 Spam, Mail gateways, identifying spam
 
@@ -27,13 +27,13 @@ Principles: Authority, Intimidation, Consensus / Social proof, Scarcity, Urgency
 
 Malware
 
-Virus, Fileless virus
+Virus, Fileless virus: virus needs host file or program to spread, worms self-duplicate
 
 Ransomware and Crypto-malware
 
 Trojans and RATs, Potentially Unwanted Program (PUP), Backdoors
 
-Rootkits, Kernel drivers
+Rootkits, Kernel drivers: stealth malware
 
 Spyware, Adware
 
@@ -41,7 +41,7 @@ Bots and Botnets
 
 Logic Bombs
 
-Password Attacks, hashing, spraying attack, dictionary attack, rainbow tables, adding some salt
+Password Attacks, hashing, spraying attack: very common passwords, dictionary attack, rainbow tables: precomputed look up tables for hashing, adding some salt
 
 Physical Attacks, malicious USB cable / flash drive, skimming, card cloning
 
@@ -57,13 +57,13 @@ Cryptographic Attacks, birthday attack, collisions, downgrade attack
 
 <h3>1.3 - Application Attacks</h3>
 
-Privilege Escalation
+Privilege Escalation: normal user to gain elevated access
 
-Cross-site Scripting, Non-persistent (reflected) / Persistent (stored) XSS attack
+Cross-site Scripting (XSS), Non-persistent (reflected) / Persistent (stored) XSS attack, browser attack
 
 Injection Attacks, code injection, SQL injection, XML injection, LDAP injection, DLL injection
 
-Buffer Overflows
+Buffer Overflows: memory spill
 
 Replay Attacks, header manipulation, prevent session hijacking, browser cookies and session IDs, sidejacking
 
@@ -71,7 +71,7 @@ Request Forgeries, cross-site requests, client and the server, forgeries, server
 
 Driver Manipulation, malware hide-and-go-seek, shimming, refactoring
 
-SSL Stripping, HTTP downgrade, SSL and TLS
+SSL Stripping, HTTP downgrade, SSL and TLS: attacker sits between client and server to intercept info
 
 Race Conditions
 
@@ -79,11 +79,11 @@ Other: memory vulnerabilities, directory traversal, improper error handling, imp
 
 <h3>1.4 - Network Attacks</h3>
 
-Rogue Access Points and Evil Twins
+Rogue Access Points and Evil Twins: wireless network access points without admin knowledge. rogue access point that mimics real access point
 
-Bluejacking and Bluesnarfing
+Bluejacking and Bluesnarfing: bluejacking is sending message via bluetooth. bluesnarfing is accessing information stored on a bluetooth device
 
-Wireless Disassociation Attacks
+Wireless Disassociation Attacks: type of dos attack
 
 Wireless Jamming
 
@@ -244,17 +244,17 @@ Cryptography Limitations
 
 <h3>3.1 - Secure Protocols</h3>
 
-Secure Protocols
+Secure Protocols: SRTP: Secure real time transport protocol: AES is encryption used, NTP has no security features, NTPsec. Email: SMIME: secure multipurpose internet mail extensions, POP ... IPsec: internet protocol security. FTPS: file transfer over SSL. SFTP: SSH file transfer protocol. LDAP / DAP is a protocol for reading and writing. SSH for remote access. DNSSEC validate original server. SNMPv3 for routing and switching. DHCP...
 
 <h3>3.2 - Host and Application Security</h3>
 
-Endpoint Protection
+Endpoint Protection, HIDS, HIPS
 
-Boot Integrity
+Boot Integrity: TPM, UEFI BIOS
 
-Database Security
+Database Security: hashing a password. salt is random stuff after a pw
 
-Application Security
+Application Security: SAST: static application security testing, tests for injections
 
 Application Hardening
 
