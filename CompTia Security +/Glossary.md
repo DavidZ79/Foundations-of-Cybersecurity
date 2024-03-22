@@ -129,11 +129,11 @@ Security Information and Event Management
 
 <h3>Penetration Testing</h3>
 
-Penetration Testing
+Penetration Testing: rules of engagement, working knowledge, unknown / known environment. initial exploitation, lateral movement, persistence, pivot. Cleanup, bug bounty
 
-Reconnaissance
+Reconnaissance: digital footprint, security posture, minimize attack area, create network map. Wardriving / warflying: combine WIFI monitoring and GPS
 
-Security Teams
+Security Teams: red team, blue team does threat hunting, purple team, white team oversees both sides, puts results from pen test
 
 
 
